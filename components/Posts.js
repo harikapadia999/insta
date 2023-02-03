@@ -13,7 +13,7 @@ export default function Posts() {
     },
     {
       id: 1,
-      username: "harikapadia",
+      username: "DhruviPastagia",
       userImg:
         "https://images.unsplash.com/photo-1675222868983-3a1dd991cba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
       img: "https://images.unsplash.com/photo-1675096563822-4e7a31b44ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
@@ -28,7 +28,8 @@ export default function Posts() {
           id={post.id}
           username={post.username}
           userImg={post.userImg}
-          img={post.caption}
+          img={post.img}
+          caption={post.caption}
         />
       ))}
     </div>
